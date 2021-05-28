@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior = "single">
+
+        <item
+            android:id = "@+id/tts"
+            android:icon="@drawable/ic_baseline_mic_24"
+            android:title = "TTS_STT" />
+
+        <item
+            android:id = "@+id/loc"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title = "Location" />
+        <item
+            android:id = "@+id/alarm"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title = "Alarm Manager" />
+
+        <item
+            android:id = "@+id/dt"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title = "Date And Time" />
+        <item
+            android:id = "@+id/weather"
+            android:icon="@drawable/ic_baseline_360_24"
+            android:title = "Weather" />
+
+    </group>
+    <item android:title = "Imports">
+        <menu>
+            <item
+                android:id = "@+id/imageEdit"
+                android:icon="@drawable/ic_baseline_photo_24"
+                android:title = "Image Editor" />
+            <item
+                android:id = "@+id/pdf"
+                android:icon="@drawable/ic_baseline_list_alt_24"
+                android:title = "PDF Viewer" />
+
+        </menu>
+    </item>
+    <item android:title = "Views">
+        <menu>
+            <item
+                android:id = "@+id/attend"
+                android:icon="@drawable/ic_baseline_playlist_add_check_24"
+                android:title = "Attendees " />
+            <item
+                android:id = "@+id/tabss"
+                android:icon="@drawable/ic_baseline_tab_24"
+                android:title = "Tab Layouts" />
+        </menu>
+    </item>
+    <item android:title = "Settings">
+        <menu>
+            <item
+                android:id = "@+id/settings"
+                android:icon="@drawable/ic_baseline_arrow_back_24"
+                android:title = "LogOut" />
+
+        </menu>
+    </item>
+</menu>
